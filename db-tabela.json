@@ -89,6 +89,17 @@
       "email": "credenciamento@mantris.com.br",
       "whatsapp": "(11) 92141-8000",
       "service_available": "Exames Clínicos, PPRA, PCMSO"
+    },
+    {
+      "name": "Coração",
+      "andress": "rua coração",
+      "cep": "234327423",
+      "email": "coração@tutu.com",
+      "whatsapp": "312312434",
+      "service_available": [
+        "Clinical exams"
+      ],
+      "id": "usWLgCM"
     }
   ]
 }

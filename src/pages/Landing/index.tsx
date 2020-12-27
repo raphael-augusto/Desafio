@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-// import { FiArrowRight } from 'react-icons/fi';
+
 // import { Link } from 'react-router-dom';
 import { useParams } from 'react-router-dom';
 
@@ -51,7 +51,10 @@ const Landing: React.FC = () => {
             </span>
             <span>
               Whatsapp: &nbsp;
-              {index.whatsapp}
+              {/* API WHATSAPP  ->  https://api.whatsapp.com/send?phone= */}
+              <a href={`https://api.whatsapp.com/send?phone=${index.whatsapp}`}>
+                {index.whatsapp}
+              </a>
             </span>
             <span>
               Service available: &nbsp;
